@@ -1,5 +1,7 @@
+// 'use client'
 import { getFrameMetadata } from "@coinbase/onchainkit";
 import type { Metadata } from "next";
+
 
 const frameMetadata = getFrameMetadata({
   buttons: [
@@ -38,7 +40,7 @@ export default function Page() {
   return (
     <>
       <h1>Cosmic Cowboys</h1>
-
+      {/* <DynamicLogin/> */}
       {/* <img src="https://ipfs.io/ipfs/QmRNE5vSNK46n1SR2hZaPq9FbWcYtA5BAUtobTZzhcr3pA/0.png" /> */}
     </>
   );
